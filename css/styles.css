@@ -1,0 +1,90 @@
+.big-heading {
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3.5rem;
+  }
+  body {
+    text-align:center;
+    margin:0px;
+  }
+  .container-fluid {
+    padding:5% 15%
+  }
+
+  p {
+    font-size:20px;
+    line-height:1.5;
+  }
+  .colored {
+    background-color:#5B9A8B;
+    color: white;
+  }
+  .light-colored {
+    background-color: #DDF7E3
+  }
+
+  /* nav section */
+  .navbar {
+    background-color:#57A6A1 ;
+  }
+  .navbar-brand {
+    padding-left:10px;    
+  }
+  .mayi-logo {
+    width:40px;
+  }
+
+  /* home section */  
+  .huchu-me{
+    border-radius: 50%;
+    width:70%;
+  }
+ 
+  /* interest section */  
+  .interest-img {
+    width: 30%;
+    margin-bottom:10%;
+  }
+
+   /* project section */  
+  #project {
+    padding: 5% 15% 2%;     
+  }   
+  .card {   
+    box-shadow: 8px 7px 8px #aaaaaa;
+  }  
+  .skill-logo {
+    width: 40px;
+    margin: 10px;
+  }
+  .skill-text {
+    line-height: 2;
+  }
+  a {
+    text-decoration: none;
+  }
+  .row {
+    margin:30px 0;
+  }
+
+  /* contact section */
+  .contact-img {
+    width:90%
+  }
+
+
+ /* footer section */
+  #footer {
+    background-color:#57A6A1;
+    color:white;
+    padding:15px; 
+  }
+  #footer p {
+    font-size: 15px;
+  }
+
+  .footer-icon {
+    margin:20px 10px;
+  }
+  
+  

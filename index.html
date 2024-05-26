@@ -1,0 +1,237 @@
+
+<!doctype html>
+<html lang="en">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Welcome to Mayi!</title>
+    <link rel="icon" href="./assets/images/mayiLogo.png">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <div class="container">
+       <a class="navbar-brand"><img class="mayi-logo" src="./assets/images/mayiLogo.png" alt="MAYI Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#interest">Interest</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+            <div class="dropdown">
+             <a class="btn btn-secondary dropdown-toggle" href="#" 
+             role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" 
+             aria-expanded="false"> Dropdown link
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="https://maybestcoding.github.io/Online-Resume/">HTML</a></li>
+              <li><a class="dropdown-item" href="https://maybestcoding.github.io/bestfriend/">CSS</a></li>
+              <li><a class="dropdown-item" href="https://maybestcoding.github.io/Resoponsive-methods/">Bootstrap</a></li>
+             </ul>
+            </div>
+         </ul>
+       </div>
+      </div>
+    </nav>  
+    <section id="home" class="light-colored">
+     <div class = "container-fluid">
+      <div class="row">       
+       <div class="col-lg-6">
+        <img src="./assets/images/animaion.jpg" class="huchu-me"  
+        alt="me and my first cat Huchu on the chair" loading="lazy">
+        </div>
+        <div class="col-lg-6 my-3 pt-5">
+          <h1 class="big-heading" > I'm May Kwon<br /> Welcome to Mayi!</h1>  
+        </div>  
+      </div>
+     </div>
+    </section>
+    
+    <section class="colored" id="interest">
+     <div id="interest-carousel" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="interest-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="interest-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="interest-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h1>I'm incredibly passionate about learning!</h1>
+          <p class="py-3">
+             I first came to Canada from South Korea in 2009 to study English. 
+             Initially, I planned to stay for only one year, but now I've settled down as 
+             a married woman and a permanent resident.<br>
+             Currently, I work as a team leader at the post office in London Drugs. 
+             Previously, I've had various occupations such as physiotherapist, English tutor,
+             newspaper reporter, immigration consultant, and education agent director. <br>
+             However, my ultimate goal is to become a software developer.
+             Therefore, I'm studying programming very diligently, which brings me excitement 
+             and joy."
+          </p>     
+          <img class="interest-img" src="./assets/images/may.png" alt="my profile picture">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h1>Playing board games energizes me! </h1>
+          <p class="py-3"> In my free time, I love to play board games.               
+            I used to attend a board game meet-up every Friday and sometimes 
+            played all night long. Through games, I've made valuable friends and 
+            even gained energy.<br> Currently, I'm joining a board game meet-up every 
+            Saturday. Sometimes, we have BBQ board game parties at the beach. 
+            Playing games while feeling the beauty of nature is truly wonderful.<br>
+            My most favorite games are Avalon and Catan. Playing games is like solving problems. 
+            When I win, I feel a great sense of achievement.               
+          </p>  
+          <img class="interest-img" src="./assets/images/boardgame.png" alt="playing Resistance game">  
+        </div>
+        <div class="carousel-item container-fluid">
+          <h1>I  never imagined myself as a pet person!</h1>
+          <p class="py-3 interest-text">Until I met  my first pet Huchu in 2021, I had been indifferent to 
+            any animals at all. Sometimes, I wouldn't even remember their existence. 
+            However, Huchu completely transformed me into an animal lover. 
+            I found myself crying all night long, missing Huchu, 
+            after leaving him for just one week at one of my friend's place. 
+            He is my first and best pet ever, who taught me how to love these 
+            little creatures. Currently, I have two cats named Cherry and Sangchu. 
+            Watching them play together brings me immense joy. <br>
+            It's also very interesting to know that every animal has a different personality, 
+             just like human beings do.
+          </p>  
+          <img class="interest-img" src="./assets/images/Huchu.png" alt="playing with Huchu">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#interest-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#interest-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>      
+     </div>  
+    </section>
+
+    <section id="project" class="light-colored">
+     <h1>Would you like to see my skills?</h1>
+     <h4 class="skill-text">As my programming skills continue to grow, you can expect more 
+        projects from me!</p>
+     <div class="row">
+      <div class="col-lg-4 col-md-6 my-3">  
+       <div class="card">
+        <div class="card-header">
+         <h3><img src="./assets/images/html-5.png" alt="HTML logo" class="skill-logo">HTML</h3>
+        </div>
+        <div class="card-body">
+         <h2><a href="https://maybestcoding.github.io/Online-Resume/">Please hire me!</h2></a>
+         <h4><a href="./public/whoI.html">Who am I?</h4></a>         
+         <h4><a href="./public/9birthdayinvite.html">Birthday invitation</h4></a>
+         <h4><a href="https://maybestcoding.github.io/portfolio/">HTML portfolio</h4></a>
+        </div>
+       </div>
+      </div>  
+     <div class="col-lg-4 col-md-6 my-3">
+      <div class="card">
+       <div class="card-header">  
+         <h3><img src="./assets/images/css-3.png" alt="CSS logo" class="skill-logo">CSS</h3>
+       </div>
+       <div class="card-body">
+         <h2><a href="https://maybestcoding.github.io/Creative-website/">Want website?</h3></a>
+         <h4><a href="https://maybestcoding.github.io/bestfriend/">Best friend</h4></a>
+         <h4><a href="https://maybestcoding.github.io/Mondrian-Project/">My Mondrian</h4></a>
+         <h4><a href="https://maybestcoding.github.io/Pricing-tags/">How much?</h4></a>       </div>
+     </div>
+    </div>
+    <div class="price-box col-lg-4 col-md-6 my-3">
+      <div class="card">
+        <div class="card-header">   
+         <h3><img src="./assets/images/bootstrap.png" alt="" class="skill-logo">Bootstrap</h3>
+        </div>
+        <div class="card-body">
+         <h2 class="price-text"><a href="https://maybestcoding.github.io/Move-with-Joy/">Move with joy</h3></a>
+         <h4><a href="https://maybestcoding.github.io/Tindog/">Tindog</h4></a>
+         <h4><a href="https://maybestcoding.github.io/Advanced-Tindog/">Advanced Tindog</h4></a>
+         <h4><a href="https://maybestcoding.github.io/Resoponsive-methods/">Responsive methods</h4></a>
+        </div>
+      </div>
+     </div>     
+     <div class="price-box col-lg-4 col-md-6 my-3">  
+      <div class="card">
+       <div class="card-header">
+         <h3><img src="./assets/images/js.png" alt="" class="skill-logo">JavaScript</h3>
+       </div>
+       <div class="card-body">
+         <h4 >COMMING SOON!</h4>      
+       </div>
+     </div>
+    </div>
+    <div class="price-box col-lg-4 col-md-6 my-3">  
+      <div class="card">
+       <div class="card-header">
+         <h3><img src="./assets/images/react.png" alt="React logo" class="skill-logo">React</h3>
+       </div>
+       <div class="card-body">
+         <h4>COMMING SOON!</h4>       
+       </div>
+      </div>
+     </div>
+     <div class="col-lg-4 col-md-6 my-3">  
+      <div class="card">
+       <div class="card-header">
+         <h3><img src="./assets/images/nodejs.png" alt="NodeJs logo" class="skill-logo">Node.Js</h3>
+       </div>
+       <div class="card-body">
+         <h4>COMMING SOON!</h4>       
+       </div>
+       </div>
+      </div>
+     </div>  
+    </section>
+
+    <section id="contact" class="colored">
+     <div class="container-fluid">
+      <h1>Would you like to grab a drink and chat with me?</h1>    
+      <img class="d-block mx-auto my-5 contact-img" src="./assets/images/contact.png" 
+      alt="drink tea with people">
+      <p>It would be wonderful to share our joys. 
+          Let's grab a cup of coffee or tea and delve into discussions           
+          about programming, animals, board games, life, and more. 
+          Please don't hesitate to contact me.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+       <a href="./public/contact.html">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Contact me          
+        </button>
+       </a>
+      </div>
+    </div>
+    
+    </section>
+    <section id="footer">           
+      <a href="https://github.com/maybestcoding">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ohdong-kwon-09a5aa1ab/"><i class="footer-icon fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://codepen.io/bestmaycoding/pen/mdOdGpz"><i class="fa-brands fa-codepen"></i>
+      </a>
+      <a href="mailto:dhehd9709@gmail.com"><i class="footer-icon fas fa-envelope"></i>
+      </a>  
+      <p>© Copyright 2024 Mayi</p> 
+    </section>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/0432196586.js" crossorigin="anonymous"></script>
+ </body>
+</html>
